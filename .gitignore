@@ -72,6 +72,8 @@ target/
 # pyenv
 .python-version
 
+tags
+
 # celery beat schedule file
 celerybeat-schedule
 
@@ -87,3 +89,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# node modules
+node_modules/
+
+# automatically generated html 
+public/index.html
