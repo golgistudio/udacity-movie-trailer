@@ -30,7 +30,7 @@ div.movie-info {
 }
 
 div.movie-info:hover {
-    background: rgba(22, 224, 224, 1);
+    background: rgba(224, 224, 224, 1);
     cursor: pointer;
 }
 

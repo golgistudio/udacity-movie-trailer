@@ -24,7 +24,7 @@ MAIN_PAGE_HEAD = '''
 '''
 
 MAIN_PAGE_FOOTER = '''
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="js/actions.js" type="text/javascript" charset="utf-8"></script>
   </body>
