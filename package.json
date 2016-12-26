@@ -11,7 +11,7 @@
     "start": "cd public; python -m SimpleHTTPServer 8000",
     "codecept": "codeceptjs run --steps",
     "selenium": "./seleniumInit.js",
-    "pytest": "pytest"
+    "pytest": "py.test"
 
   },
   "author": "Laurie Reynolds",
