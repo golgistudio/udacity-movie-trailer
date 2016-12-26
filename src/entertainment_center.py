@@ -8,7 +8,7 @@ def main():
     """
         ToDo
     """
-    movie_list = get_movie_list("data/movies.json")
+    movie_list = get_movie_list("src/data/movies.json")
     fresh_tomatoes.open_movies_page(movie_list)
 
 main()

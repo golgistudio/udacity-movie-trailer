@@ -5,6 +5,7 @@
 import webbrowser
 import os
 import re
+import sys
 
 # Styles and scripting for the page
 MAIN_PAGE_HEAD = '''
@@ -105,6 +106,7 @@ def open_movies_page(movies):
       ToDo
     """
     # Create or overwrite the output file
+    sys.path.append("../")
     output_file = open('public/index.html', 'w')
 
     # Replace the movie tiles placeholder generated content
