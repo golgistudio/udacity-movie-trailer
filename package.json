@@ -12,11 +12,11 @@
     "codecept": "codeceptjs run --steps",
     "selenium": "./seleniumInit.js",
     "pytest": "py.test"
-
   },
   "author": "Laurie Reynolds",
   "license": "MIT",
   "devDependencies": {
+    "babel-register": "6.18.0",
     "child_process": "1.0.2",
     "codeceptjs": "0.4.13",
     "jshint": "2.9.4",

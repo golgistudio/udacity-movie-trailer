@@ -9,7 +9,7 @@ exports.config = {
   bootstrap: false,
   name: 'recording-admin',
   mocha: {},
-  tests: './tests/acceptance/*.acctests.js',
+  tests: './src/tests/acceptance/*.acctests.js',
   timeout: 10000,
   // windowSize does not seem to work yet.
   windowSize: '1024x1000',
