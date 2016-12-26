@@ -4,17 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "jshint": "jshint public/js/*.js",
     "stylelint": "stylelint ./public/styles/*.css",
     "pylint": "pylint *.py",
-    "start": "python entertainment_center.py"
+    "update": "python entertainment_center.py",
+    "start": "cd public; python -m SimpleHTTPServer 8000",
+    "codecept": "codeceptjs run --steps",
+    "selenium": "./seleniumInit.js",
+    "pytest": "pytest"
+
   },
-  "author": "",
+  "author": "Laurie Reynolds",
   "license": "MIT",
   "devDependencies": {
+    "child_process": "1.0.2",
+    "codeceptjs": "0.4.13",
     "jshint": "2.9.4",
-    "stylelint": "7.7.0"
+    "selenium-binaries": "0.10.0",
+    "stylelint": "7.7.0",
+    "user-home": "2.0.0",
+    "webdriverio": "4.5.2"
   },
   "dependencies": {}
 }
