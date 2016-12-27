@@ -12,12 +12,12 @@ The page does not include media queries, so is best viewed on a tablet or larger
 * [Getting Started](#getting-started)
 * [Overview](#overview)
 * [Quality Checks](#quality-checks)
-  * [python linter](#python-linter)
-  * [javascript linter](#javascript-linter)
-  * [css linter](#css-linter)
-  * [python tests](#python-tests)
-  * [acceptance tests](#acceptance-tests)
-  * [webdev checklist](#webdev-checklist)
+ * [Python Linter](#python-linter)
+ * [Javascript Linter](#javascript-linter)
+ * [CSS Linter](#css-linter)
+ * [Python Tests](#python-tests)
+ * [Acceptance Tests](#acceptance-tests)
+ * [Webdev Checklist](#webdev-checklist)
 
 
 ## Getting Started
@@ -123,35 +123,40 @@ Setup to run the checks
 
 See the package.json file for the shortcut mappings.
 
-### Python linter - [pylint](https://www.pylint.org/)
+### Python Linter
+* [pylint](https://www.pylint.org/)
 * pylint checks that the code conforms with [Pep 8](https://www.python.org/dev/peps/pep-0008/) 
 
 ```
 npm run pylint
 ```
 
-### Javascript linter - [jshint](http://jshint.com/)
+### Javascript Linter
+* [jshint](http://jshint.com/)
 * Basic style checks.  If more javascript code is written, recommend using [eslint](http://eslint.org/)
 
 ```
 npm run jshint
 ```
 
-### CSS linter  - [stylelint](http://stylelint.io/)
+### CSS Linter
+* [stylelint](http://stylelint.io/)
 * Basic style checks. Rules are defined in the .stylelintrc file
 
 ```
 npm run stylelint
 ```
 
-### Python tests - [pytest](http://doc.pytest.org/en/latest/)
+### Python Tests
+* [pytest](http://doc.pytest.org/en/latest/)
 * Example python test
 
 ```
 npm run pytest
 ```
 
-### Acceptance tests - [codeceptjs](http://codecept.io/)
+### Acceptance tests
+* [codeceptjs](http://codecept.io/)
 * Example acceptance test.
 
 Run the following commands in individual terminals
@@ -162,7 +167,8 @@ npm start           # Starts a basic web server to serve the static page on port
 npm run codecept    # Run the acceptance test
 ```
 
-### Webdev checklist - [webdev](http://webdevchecklist.com/)
+### Webdev Checklist
+* [webdev](http://webdevchecklist.com/)
 * Install the chrome extension
   * Launch the extension to get feedback on some basic page speed, and html
 
