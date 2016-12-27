@@ -5,15 +5,18 @@ exports.config = {
       browser: 'chrome'
     },
     FileSystem: {},
+    TrailerHelpers: {
+      require: './src/tests/acceptance/trailerHelpers.js'
+    }
   },
   bootstrap: false,
-  name: 'recording-admin',
+  name: 'movie-trailer',
   mocha: {},
   tests: './src/tests/acceptance/*.acctests.js',
   timeout: 10000,
   // windowSize does not seem to work yet.
   windowSize: '1024x1000',
-  output: '.codecept.log',
+  output: './src/tests/acceptance/screenshots',
   include: {
   }
 };

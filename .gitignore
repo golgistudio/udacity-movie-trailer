@@ -95,3 +95,6 @@ node_modules/
 
 # automatically generated html 
 public/index.html
+
+# codecept screenshots
+src/acceptance/screenshots/*.png
