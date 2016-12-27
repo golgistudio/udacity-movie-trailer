@@ -2,7 +2,8 @@
 
 [![Stories in Ready](https://badge.waffle.io/golgistudio/udacity-movie-trailer.png?label=ready&title=Ready)](https://waffle.io/golgistudio/udacity-movie-trailer)    [![Build Status](https://travis-ci.org/golgistudio/udacity-movie-trailer.svg?branch=master)](https://travis-ci.org/golgistudio/udacity-movie-trailer)
 
-A demo web page for viewing movie trailers built as part of the Udacity Fullstack Nanodegree program
+A demo web page for viewing movie trailers built as part of the Udacity Fullstack Nanodegree program.
+The page does not include media queries, so is best viewed on a tablet or larger view port.
 
 <img src="https://raw.githubusercontent.com/wiki/golgistudio/udacity-movie-trailer/images/movie_screenshot.png" alt="Movie screenshot" width="600">
 
@@ -11,9 +12,18 @@ A demo web page for viewing movie trailers built as part of the Udacity Fullstac
 * [Getting Started](#getting-started)
 * [Overview](#overview)
 * [Quality Checks](#quality-checks)
+  * [python linter](#python-linter)
+  * [javascript linter](#javascript-linter)
+  * [css linter](#css-linter)
+  * [python tests](#python-tests)
+  * [acceptance tests](#acceptance-tests)
+  * [webdev checklist](#webdev-checklist)
 
 
 ## Getting Started
+
+### If you don't have Python installed - install Python 2.7.x 
+   - See [python.org](https://www.python.org/downloads/) for instructions on downloading for your os
 
 ### 1. Clone the repo
 
@@ -34,9 +44,11 @@ The browser should show a page that looks similar to the above image.
 npm run dev
 ```
 
-### Overview
+## Overview
 
-The page is built using a python script which reads data from a local json file.  
+The page is built using a python script....
+* Reads movie data from src/data/movies.json
+* Outputes public/index.html using src/fresh_tomatoes.py as the input template   
 
 ```
 udacity-movie-trailer/
@@ -83,4 +95,75 @@ __pycache__/     # python cache
 node_modules/    # Installed modules used for quality checks 
 ```
 
-### Quality Checks
+## Quality Checks
+
+As part of the initial setup, linters and example tests were created.  These are not
+complete, but serve as a boilerplate for future development
+
+To see the output, view the job log from a recent travis build.  
+[Travis build for the udacity-movie-trailer](https://travis-ci.org/golgistudio/udacity-movie-trailer)
+
+Setup to run the checks
+* Install the following python packages
+  * pylint
+  ```
+  pip install pylint
+  ```
+  * ptest
+  ```
+  pip install ptest 
+  ```
+* If you do not have node and npm installed, install version node 6.9.x
+  * [nodejs.org](https://nodejs.org/en/download/)
+
+* Install the rest from the package.json files
+  ```
+  npm install
+  ```
+
+See the package.json file for the shortcut mappings.
+
+### Python linter - [pylint](https://www.pylint.org/)
+* pylint checks that the code conforms with [Pep 8](https://www.python.org/dev/peps/pep-0008/) 
+
+```
+npm run pylint
+```
+
+### Javascript linter - [jshint](http://jshint.com/)
+* Basic style checks.  If more javascript code is written, recommend using [eslint](http://eslint.org/)
+
+```
+npm run jshint
+```
+
+### CSS linter  - [stylelint](http://stylelint.io/)
+* Basic style checks. Rules are defined in the .stylelintrc file
+
+```
+npm run stylelint
+```
+
+### Python tests - [pytest](http://doc.pytest.org/en/latest/)
+* Example python test
+
+```
+npm run pytest
+```
+
+### Acceptance tests - [codeceptjs](http://codecept.io/)
+* Example acceptance test.
+
+Run the following commands in individual terminals
+
+```
+npm run selenium    # Starts the selenium server
+npm start           # Starts a basic web server to serve the static page on port 8000
+npm run codecept    # Run the acceptance test
+```
+
+### Webdev checklist - [webdev](http://webdevchecklist.com/)
+* Install the chrome extension
+  * Launch the extension to get feedback on some basic page speed, and html
+
+
