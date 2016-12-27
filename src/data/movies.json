@@ -1,12 +1,200 @@
 {
   "HACKSAW_RIDGE": {
     "title": "Hacksaw Ridge",
+    "year": "2016",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8a/Hacksaw_Ridge_poster.png",
-    "trailer": "https://www.youtube.com/watch?v=s2-1hz1juBI"
+    "trailer": "https://www.youtube.com/watch?v=s2-1hz1juBI",
+    "rating": "R",
+    "genre": "Drama",
+    "storyline": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people, and becomes the first man in American history to receive the Medal of Honor without firing a shot."
   },
   "HELL_OR_HIGH_WATER": {
     "title": "Hell Or High Water",
+    "year": "2016",
     "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/8/8f/Hell_or_High_Water_film_poster.png",
-    "trailer": "https://www.youtube.com/watch?v=JQoqsKoJVDw"
+    "trailer": "https://www.youtube.com/watch?v=JQoqsKoJVDw",
+    "rating": "R",
+    "genre": "Crime, Drama, Western",
+    "storyline": "A divorced father and his ex-con older brother resort to a desperate scheme in order to save their family's ranch in West Texas."
+  },
+  "LION": {
+    "title": "Lion",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/f/f0/Lion_%282016_film%29.png",
+    "trailer": "https://www.youtube.com/watch?v=-RNI9o06vqo",
+    "rating": "PG-13",
+    "genre": "Drama",
+    "storyline": "A five-year-old Indian boy gets lost on the streets of Calcutta, thousands of kilometers from home. He survives many challenges before being adopted by a couple in Australia; 25 years later, he sets out to find his lost family."
+  },
+  "MANCHESTER_BY_THE_SEA": {
+    "title": "Manchester by the Sea",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/d/de/Manchester_by_the_Sea.jpg",
+    "trailer": "https://www.youtube.com/watch?v=gsVoD0pTge0",
+    "rating": "R",
+    "genre": "Drama",
+    "storyline": "An uncle is forced to take care of his teenage nephew after the boy's father dies."
+  },
+  "MOONLIGHT": {
+    "title": "Moonlight",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/8/84/Moonlight_%282016_film%29.png",
+    "trailer": "https://www.youtube.com/watch?v=9NJj12tJzqc",
+    "rating": "R",
+    "genre": "Drama",
+    "storyline": "A timeless story of human connection and self-discovery, Moonlight chronicles the life of a young black man from childhood to adulthood as he struggles to find his place in the world while growing up in a rough neighborhood of Miami."
+  },
+  "20TH_CENTURY_WOMEN": {
+    "title": "20th Century Women",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/a/ad/20th_Century_Women.png",
+    "trailer": "https://www.youtube.com/watch?v=bxcvng_CpMQ",
+    "rating": "R",
+    "genre": "Comedy, Drama",
+    "storyline": "The story of three women who explore love and freedom in Southern California during the late 1970s."
+  },
+  "DEADPOOL": {
+    "title": "Deadpool",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/4/46/Deadpool_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=9vN6DHB6bJc",
+    "rating": "R",
+    "genre": "Action, Adventure, Comedy",
+    "storyline": "A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge."
+  },
+  "FLORENCE_FOSTER_JENKINS": {
+    "title": "Florence Foster Jenkins",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/1/10/Florence_Foster_Jenkins_%28film%29.jpg",
+    "trailer": "https://www.youtube.com/watch?v=HszfdNS0JSc",
+    "rating": "PG-13",
+    "genre": "Biography, Comedy, Drama",
+    "storyline": "The story of Florence Foster Jenkins, a New York heiress who dreamed of becoming an opera singer, despite having a terrible singing voice."
+  },
+  "LA_LA_LAND": {
+    "title": "La La Land",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_%28film%29.png",
+    "trailer": "https://www.youtube.com/watch?v=lu4RHvouJH8",
+    "rating": "PG-13",
+    "genre": "Comedy, Drama, Musical",
+    "storyline": "A jazz pianist falls for an aspiring actress in Los Angeles."
+  },
+  "SING_STREET": {
+    "title": "Sing Street",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/2/2c/Sing_Street_poster.jpeg",
+    "trailer": "https://www.youtube.com/watch?v=C_YqJ_aimkM",
+    "rating": "PG-13",
+    "genre": "Comedy, Drama, Music",
+    "storyline": "A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes."
+  },
+  "NOCTURNAL_ANIMALS": {
+    "title": "Nocturnal Animals",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/b/b0/Nocturnal_Animals_Poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=-H1Ii1LjyFU",
+    "rating": "R",
+    "genre": "Drama, Thriller",
+    "storyline": "An art gallery owner is haunted by her ex-husband's novel, a violent thriller she interprets as a veiled threat and a symbolic revenge tale."
+  },
+  "LOVING": {
+    "title": "Loving",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/9/98/Loving_%282016_film%29.jpg",
+    "trailer": "https://www.youtube.com/watch?v=33g-ZHBQdNU",
+    "rating": "PG-13",
+    "genre": "Biography, Drama, Romance",
+    "storyline": "The story of Richard and Mildred Loving, an interracial couple, whose challenge of their anti-miscegenation arrest for their marriage in Virginia led to a legal battle that would end at the US Supreme Court."
+  },
+  "CAPTAIN_FANTASTIC": {
+    "title": "Captain Fantastic",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/c/c2/Captain_Fantastic_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=D1kH4OMIOMc",
+    "rating": "R",
+    "genre": "Comedy, Drama, Romance",
+    "storyline": "In the forests of the Pacific Northwest, a father devoted to raising his six kids with a rigorous physical and intellectual education is forced to leave his paradise and enter the world, challenging his idea of what it means to be a parent."
+  },
+  "FENCES": {
+    "title": "Fences",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/9/97/Fences.jpg",
+    "trailer": "https://www.youtube.com/watch?v=jj-ZYPVRQbc",
+    "rating": "PG-13",
+    "genre": "Drama",
+    "storyline": "An African-American father struggles with race relations in the United States while trying to raise his family in the 1950s and coming to terms with the events of his life."
+  },
+  "ARRIVAL": {
+    "title": "Arrival",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=tFMo3UJ4B4g",
+    "rating": "PG-13",
+    "genre": "Drama, Mystery, Sci-Fi",
+    "storyline": "When 12 mysterious spacecraft appear around the world, linguistics professor, Louise Banks is tasked with interpreting the language of the alien passengers inside."
+  },
+  "MISS_SLOANE": {
+    "title": "Miss Sloane",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/e/e3/Miss_Sloane.png",
+    "trailer": "https://www.youtube.com/watch?v=AMUkfmUu44k",
+    "rating": "R",
+    "genre": "Drama, Thriller",
+    "storyline": "In the high-stakes world of political power-brokers, Elizabeth Sloane is the most sought after and formidable lobbyist in D.C. But when taking on the most powerful opponent of her career, she finds winning may come at too high a price"
+  },
+  "ELLE": {
+    "title": "Elle",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/0/0f/Elle_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=cwW8FfopEHY",
+    "rating": "R",
+    "genre": "Drama, Thriller",
+    "storyline": "A successful businesswoman gets caught up in a game of cat and mouse as she tracks down the unknown man who raped her."
+  },
+  "JACKIE": {
+    "title": "Jackie",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/8/84/Jackie_%282016_film%29.png",
+    "trailer": "https://www.youtube.com/watch?v=g9pW3B8Ycc4",
+    "rating": "R",
+    "genre": "Biography, Drama",
+    "storyline": "Following the assassination of President John F. Kennedy, First Lady Jacqueline Kennedy fights through grief and trauma to regain her faith, console her children, and define her husband's historic legacy."
+  },
+  "RULES_DONT_APPLY": {
+    "title": "Rules Don't Apply",
+    "year": "2016",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/23/Rules_Don%27t_Apply.png",
+    "trailer":  "https://www.youtube.com/watch?v=AqU0FdJQC_0",
+    "rating": "PG-13",
+    "genre": "Comedy, Drama, Romance",
+    "storyline": "An unconventional love story of an aspiring actress, her determined driver, and the eccentric billionaire who they work for."
+  },
+  "THE_EDGE_OF_SEVENTEEN": {
+    "title": "The Edge of Seventeen",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/7/76/The_Edge_of_Seventeen_2016_film_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=EB6Gecy6IP8",
+    "rating": "R",
+    "genre": "Comedy, Drama",
+    "storyline": "High-school life gets even more unbearable for Nadine when her best friend, Krista, starts dating her older brother."
+  },
+  "THE_LOBSTER": {
+    "title": "The Lobster",
+    "year": "2015",
+    "thumbnail": "https://s-media-cache-ak0.pinimg.com/originals/80/9f/94/809f946f135042017288862fc70d4165.jpg",
+    "trailer": "https://www.youtube.com/watch?v=vU29VfayDMw",
+    "rating": "R",
+    "genre": "Comedy, Drama, Romance",
+    "storyline": "In a dystopian near future, single people, according to the laws of The City, are taken to The Hotel, where they are obliged to find a romantic partner in forty-five days or are transformed into beasts and sent off into The Woods."
+  },
+  "WAR_DOGS": {
+    "title": "War Dogs",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/5/52/War_Dogs_2016_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Rwh9c_E3dJk",
+    "rating": "R",
+    "genre": "Comedy, Crime, Drama",
+    "storyline": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million contract from the Pentagon to arm America's allies in Afghanistan."
   }
 }

@@ -20,9 +20,20 @@ body {
     height: 100%;
 }
 
+.movies {
+    width: 90%;
+    margin: auto;
+}
+
+.movie-card {
+    float: left;
+    width: 500px;
+    height: 342px;
+    margin: 0.5em;
+}
+
 div.movie-info {
     float: left;
-    width: 440px;
     height: 342px;
     background: rgba(255, 255, 255, 1);
     margin-bottom: 10px;
@@ -36,14 +47,52 @@ div.movie-info:hover {
 
 .movie-thumbnail {
     float: left;
-    width: 220px;
     height: 320px;
 }
 
+.movie-thumbnail img {
+    height: 342px;
+}
+
 .movie-description {
+    position: relative;
     float: left;
     width: 220px;
-    height: 320px;
+    height: 100%;
+}
+
+.movie-description-header {
+    font-size: 18pt;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.movie-description-sub-header {
+    font-style: italic;
+    text-align: center;
+}
+
+.movie-description-content {
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 5%;
+}
+
+div.movie-description div.movie-description-footer {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+}
+
+.movie-description-footer-left {
+    position: absolute;
+    left: 5px;
+}
+
+.movie-description-footer-right {
+    position: absolute;
+    right: 5px;
 }
 
 .scale-media {

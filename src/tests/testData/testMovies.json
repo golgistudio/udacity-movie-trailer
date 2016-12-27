@@ -1,12 +1,20 @@
 {
-  "HACKSAW_RIDGE": {
-    "title": "Hacksaw Ridge",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8a/Hacksaw_Ridge_poster.png",
-    "trailer": "https://www.youtube.com/watch?v=s2-1hz1juBI"
+ "WAR_DOGS": {
+    "title": "War Dogs",
+    "year": "2016",
+    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/5/52/War_Dogs_2016_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Rwh9c_E3dJk",
+    "rating": "R",
+    "genre": "Comedy, Crime, Drama",
+    "storyline": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million contract from the Pentagon to arm America's allies in Afghanistan."
   },
-  "HELL_OR_HIGH_WATER": {
-    "title": "Hell Or High Water",
-    "thumbnail":  "https://upload.wikimedia.org/wikipedia/en/8/8f/Hell_or_High_Water_film_poster.png",
-    "trailer": "https://www.youtube.com/watch?v=JQoqsKoJVDw"
+  "THE_LOBSTER": {
+    "title": "The Lobster",
+    "year": "2015",
+    "thumbnail": "https://s-media-cache-ak0.pinimg.com/originals/80/9f/94/809f946f135042017288862fc70d4165.jpg",
+    "trailer": "https://www.youtube.com/watch?v=vU29VfayDMw",
+    "rating": "R",
+    "genre": "Comedy, Drama, Romance",
+    "storyline": "In a dystopian near future, single people, according to the laws of The City, are taken to The Hotel, where they are obliged to find a romantic partner in forty-five days or are transformed into beasts and sent off into The Woods."
   }
 }

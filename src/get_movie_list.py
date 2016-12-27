@@ -17,5 +17,6 @@ def get_movie_list(file_path):
             movie_item = media.Movie(value["title"],
                                      value["thumbnail"],
                                      value["trailer"])
+            movie_item.update_from_json(value)
             movie_list.append(movie_item)
     return movie_list

@@ -8,6 +8,7 @@
     "stylelint": "stylelint ./public/styles/*.css",
     "pylint": "pylint **/*.py",
     "update": "python src/entertainment_center.py",
+    "dev": "python src/entertainment_center.py",
     "start": "cd public; python -m SimpleHTTPServer 8000",
     "codecept": "codeceptjs run --steps",
     "selenium": "./seleniumInit.js",

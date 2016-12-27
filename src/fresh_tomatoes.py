@@ -15,11 +15,15 @@ MAIN_PAGE_HEAD = '''
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fresh Tomatoes!</title>
+    <link rel="icon" 
+      type="image/x-icon" 
+      href="favicon.ico" />
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="styles/styles.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap-overrides.css" media="screen" />
 </head>
 <body>
 '''
@@ -51,13 +55,18 @@ MAIN_PAGE_CONTENT = '''
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+          <div class="navbar-left">
+            <a class="navbar-brand" href="#">
+              <img src="images/noun_23947.png" alt="logo" />
+              Fresh Tomatoes Movie Trailers</a>
           </div>
+           <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://github.com/golgistudio/udacity-movie-trailer" target="_blank">Github</a></li>
+           </ul>
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="movies">
       {movie_tiles}
     </div>
 '''
@@ -65,13 +74,29 @@ MAIN_PAGE_CONTENT = '''
 
 # A single movie entry html template
 MOVIE_TITLE_CONTENT = '''
-<div class="col-sm-8 col-md-6 col-lg-6 movie-card text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
+<div class="movie-card text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <div class="movie-info">
       <div class="movie-thumbnail">
-        <img src="{poster_image_url}" width="220" height="342" alt="{movie_title}">
+        <img src="{poster_image_url}"  alt="{movie_title}">
       </div>
       <div class="movie-description">
-        {movie_title}
+        <div class="movie-description-header"> 
+          {movie_title}
+        </div>
+        <div class="movie-description-sub-header">
+              {genre} 
+        </div>
+        <div class="movie-description-content"> 
+          {storyline}
+        </div>
+        <div class="movie-description-footer"> 
+          <span class="movie-description-footer-left">
+            {rating}
+          </span>
+          <span class="movie-description-footer-right">
+            {year}  
+          </span>
+        </div>
       </div>
     </div>
 </div>
@@ -96,7 +121,11 @@ def create_movie_tiles_content(movies):
         content += MOVIE_TITLE_CONTENT.format(
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
-            trailer_youtube_id=trailer_youtube_id
+            trailer_youtube_id=trailer_youtube_id,
+            year=movie.year,
+            storyline=movie.storyline,
+            genre=movie.genre,
+            rating=movie.rating
         )
     return content
 

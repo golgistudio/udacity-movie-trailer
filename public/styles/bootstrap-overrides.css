@@ -1,0 +1,17 @@
+.navbar-inverse {
+    background-color: rgb(88, 153, 165) !important;
+    background-image: none;
+}
+
+.navbar-inverse .navbar-brand {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar-brand img {
+    width: 32px;
+}
+
+.navbar-nav > li > a {
+    color: rgb(255, 255, 255) !important;
+}
+
