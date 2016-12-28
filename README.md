@@ -5,6 +5,8 @@
 A demo web page for viewing movie trailers built as part of the Udacity Fullstack Nanodegree program.
 The page does not include media queries, so is best viewed on a tablet or larger view port.
 
+View the site hosted on github pages - [https://golgistudio.github.io/udacity-movie-trailer/](https://golgistudio.github.io/udacity-movie-trailer/)
+
 <img src="https://raw.githubusercontent.com/wiki/golgistudio/udacity-movie-trailer/images/movie_screenshot.png" alt="Movie screenshot" width="600">
 
 ## Table of contents
