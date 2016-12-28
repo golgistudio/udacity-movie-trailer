@@ -1,5 +1,5 @@
 """
-  ToDo
+  Templates and methods for generating the static html page
 """
 
 import webbrowser
@@ -104,7 +104,13 @@ MOVIE_TITLE_CONTENT = '''
 
 def create_movie_tiles_content(movies):
     """
-      ToDo
+      Fill in the template for each movie card
+
+      Args:
+        movies (array of Movie) : An array of movie information.
+
+      Returns:
+        content (string):  HTML for all the movie cards
     """
     # The HTML content for this section of the page
     content = ''
@@ -132,7 +138,13 @@ def create_movie_tiles_content(movies):
 
 def open_movies_page(movies):
     """
-      ToDo
+      Creates the static html page and loads it into a default browser
+
+      Args:
+        movies (array of Movie) : An array of movie information.
+
+      Returns:
+        nothing
     """
     # Create or overwrite the output file
     sys.path.append("../")

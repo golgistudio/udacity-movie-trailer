@@ -1,5 +1,5 @@
 """
-  ToDo
+    Read in the movies
 """
 
 import json
@@ -7,7 +7,13 @@ import media
 
 def get_movie_list(file_path):
     """
-        ToDo
+       Given a file path, parse the json and return an array of movies
+
+       Args:
+        file_path (string): Full file path for the json file
+
+      Returns:
+        movies (array of Movie) : An array of movie information.
     """
     movie_list = []
     with open(file_path) as json_file:

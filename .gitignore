@@ -97,4 +97,4 @@ node_modules/
 public/index.html
 
 # codecept screenshots
-src/acceptance/screenshots/*.png
+src/tests/acceptance/screenshots/*.png

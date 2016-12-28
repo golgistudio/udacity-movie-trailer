@@ -1,9 +1,9 @@
 """
-    ToDo
+    Movie class
 """
 class Movie(object):
     """
-        ToDo
+        Definition for a movie card
     """
     title = ""
     poster_image_url = ""
@@ -13,13 +13,19 @@ class Movie(object):
     storyline = ""
     year = ""
     def __init__(self, title, thumbnail, trailer):
+        """
+            Constructor
+        """
         self.title = title
         self.poster_image_url = thumbnail
         self.trailer_youtube_url = trailer
 
     def update_from_json(self, movie_info):
         """
-            Todo
+            Retrieve from a json object more fields.abs
+
+            Args:
+                movie_info (object): json object of movie information
         """
         self.title = movie_info["title"]
         self.poster_image_url = movie_info["thumbnail"]
@@ -31,6 +37,9 @@ class Movie(object):
 
     def update_storyline(self, storyline):
         """
-            Todo
+            Separate method to update a storyline
+
+            Args:
+                storyLine (string): Updated storyline to store in the instance.
         """
         self.storyline = storyline

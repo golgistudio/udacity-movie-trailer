@@ -79,6 +79,7 @@ div.movie-info:hover {
     margin-left: 5%;
 }
 
+/* movie description footer styles */
 div.movie-description div.movie-description-footer {
     position: absolute;
     bottom: 25px;
@@ -95,6 +96,7 @@ div.movie-description div.movie-description-footer {
     right: 5px;
 }
 
+/* Styles for the trailer */
 .scale-media {
     position: relative;
     padding-bottom: 56.25%;
