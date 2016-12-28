@@ -43,6 +43,12 @@ cd udacity-movie-trailer
 The browser should show a page that looks similar to the above image.
 
 ```
+python src/entertainment_center.py
+```
+
+If you have node and npm installed, you can use the scripts in the package.json file
+
+```
 npm run dev
 ```
 
